@@ -1,0 +1,1381 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32495 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/wlecuyer/Documents/GitHub/SoloCollegeGame/SoloGameProject
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63152
+Successfully changed project path to: C:/Users/wlecuyer/Documents/GitHub/SoloCollegeGame/SoloGameProject
+C:/Users/wlecuyer/Documents/GitHub/SoloCollegeGame/SoloGameProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24836] Host "[IP] 172.20.120.146 [Port] 0 [Flags] 2 [Guid] 3275112994 [EditorId] 3275112994 [Version] 1048832 [Id] WindowsEditor(7,CNIC329-15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24836] Host "[IP] 172.20.120.146 [Port] 0 [Flags] 2 [Guid] 3275112994 [EditorId] 3275112994 [Version] 1048832 [Id] WindowsEditor(7,CNIC329-15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 35.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wlecuyer/Documents/GitHub/SoloCollegeGame/SoloGameProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   NVIDIA
+    VRAM:     8002 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.066161 seconds.
+- Loaded All Assemblies, in  0.658 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 828 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.301 seconds
+Domain Reload Profiling: 1957ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (127ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1301ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1019ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.162 seconds
+Refreshing native plugins compatible for Editor in 11.42 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.752 seconds
+Domain Reload Profiling: 1906ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (703ms)
+		LoadAssemblies (624ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (217ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (753ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (80ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 11.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3549.
+Memory consumption went from 120.3 MB to 120.2 MB.
+Total: 3.654300 ms (FindLiveObjects: 0.345800 ms CreateObjectMapping: 0.210800 ms MarkObjects: 2.973200 ms  DeleteObjects: 0.123500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/RandomSFX.cs: bd41656b4725e8e3efb7231569f75432 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ElectricArt.cs: c74bc6a860ebcab81cb0f08c3b78bcbd -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 513756.495862 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/concrete_impact_soft2.wav
+  artifactKey: Guid(91e1c531509f76643be5904dc21fbb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/concrete_impact_soft2.wav using Guid(91e1c531509f76643be5904dc21fbb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509832cacb0c3e3b5cfa1b92665bf1aa') in 0.116233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/flesh_impact_hard4.wav
+  artifactKey: Guid(ccb92dd61613a0e4c8079f1ef3fd77b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/flesh_impact_hard4.wav using Guid(ccb92dd61613a0e4c8079f1ef3fd77b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6047ba3fc2337489c46dae0f48c99a24') in 0.013551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/flesh_squishy_impact_hard4.wav
+  artifactKey: Guid(84e5fdf9d8de41f49b7da3a81d3fd625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/flesh_squishy_impact_hard4.wav using Guid(84e5fdf9d8de41f49b7da3a81d3fd625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1715103ce9b85f405f17f3c80357d1') in 0.010399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/drywall_impact_hard2.wav
+  artifactKey: Guid(b38359fa12e5ca94a80d88a4d173c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/drywall_impact_hard2.wav using Guid(b38359fa12e5ca94a80d88a4d173c876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cfdf05be0239e58093119743db3373') in 0.011461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/drywall_impact_hard1.wav
+  artifactKey: Guid(51477180d1619da4eb4b204bcc7d2ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/drywall_impact_hard1.wav using Guid(51477180d1619da4eb4b204bcc7d2ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656be7e041a577b0e84d68a640a38733') in 0.016989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/flesh_strider_impact_bullet1.wav
+  artifactKey: Guid(988eded0caaab9e44b17c9fcd6021c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/flesh_strider_impact_bullet1.wav using Guid(988eded0caaab9e44b17c9fcd6021c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cab8f11c130ac6ba3006329018e709') in 0.016949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.566840 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/flesh_strider_impact_bullet2.wav
+  artifactKey: Guid(54154288af7b6a241a8ce682e35b5ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/flesh_strider_impact_bullet2.wav using Guid(54154288af7b6a241a8ce682e35b5ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2161bb2a2ea7ce9e39d78c737a4aa437') in 0.032096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/glass_impact_bullet1.wav
+  artifactKey: Guid(4be9387ff8245594099c4d926d5c5103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/glass_impact_bullet1.wav using Guid(4be9387ff8245594099c4d926d5c5103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1b098db381ceb4362100b018d9f382') in 0.026997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/glass_impact_hard3.wav
+  artifactKey: Guid(cda45ebf7b9484e4380e1d6e61a33271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/glass_impact_hard3.wav using Guid(cda45ebf7b9484e4380e1d6e61a33271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f11804d773f60532d1becc8d2d37bf') in 0.016379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/glass_impact_hard1.wav
+  artifactKey: Guid(ee9fcdfc4d4a5b0468e8c5e96ec91ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/glass_impact_hard1.wav using Guid(ee9fcdfc4d4a5b0468e8c5e96ec91ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7de49a7f72b152f81627cb6f4d26b17') in 0.019429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.318672 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/glass_impact_soft1.wav
+  artifactKey: Guid(13546f13f6209e440b18b323ada43218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/glass_impact_soft1.wav using Guid(13546f13f6209e440b18b323ada43218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365373483a42380bf87f7ee2c83b6492') in 0.027175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/glass_pottery_break1.wav
+  artifactKey: Guid(6084c9c7d3dc0a944a3f289655a37cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/glass_pottery_break1.wav using Guid(6084c9c7d3dc0a944a3f289655a37cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f47e537d2dbd23a26773a580e02f6a') in 0.018792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/glass_sheet_impact_hard3.wav
+  artifactKey: Guid(0a2de241a9691b242a0e2a9181d35372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/glass_sheet_impact_hard3.wav using Guid(0a2de241a9691b242a0e2a9181d35372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3b4da30e86a79151afeaee3d451956') in 0.017879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/glass_pottery_break4.wav
+  artifactKey: Guid(7641841c7e9ca9a44b6d50d35af2bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/glass_pottery_break4.wav using Guid(7641841c7e9ca9a44b6d50d35af2bc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16637304c801ce05d283ccfdd954e28f') in 0.015284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.381822 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/glass_sheet_impact_soft2.wav
+  artifactKey: Guid(ad7a4ffb937dbae4da2a8e2c3fbe3e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/glass_sheet_impact_soft2.wav using Guid(ad7a4ffb937dbae4da2a8e2c3fbe3e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d11b5d39f026734e02c7c2e6fb7beb') in 0.028426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/glass_sheet_step4.wav
+  artifactKey: Guid(0b45d90e209d0054ba8dedc1421c8f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/glass_sheet_step4.wav using Guid(0b45d90e209d0054ba8dedc1421c8f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0410f3294cbcf4c66718a6623e1ec5a0') in 0.027144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_barrel_impact_hard7.wav
+  artifactKey: Guid(85da562c9c0e48a4faf84dde5164cf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_barrel_impact_hard7.wav using Guid(85da562c9c0e48a4faf84dde5164cf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ace918172d9357723d048c8e152fb95') in 0.013555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_barrel_impact_hard1.wav
+  artifactKey: Guid(45003f4f6a7797b4fab5ea097ed81a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_barrel_impact_hard1.wav using Guid(45003f4f6a7797b4fab5ea097ed81a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50af31e256d2fcfba4e02e0241b1024a') in 0.012046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.297024 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_box_break1.wav
+  artifactKey: Guid(5e70f2fffda84764da507c6daf9d1250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_box_break1.wav using Guid(5e70f2fffda84764da507c6daf9d1250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9e249864af77e3317f7287ef7743b7') in 0.029178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_box_impact_hard1.wav
+  artifactKey: Guid(a7ca6b4cf72bc2d4a97f4d213c90e357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_box_impact_hard1.wav using Guid(a7ca6b4cf72bc2d4a97f4d213c90e357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd03c2caa9ef6756b72dddb7cd8d858') in 0.019212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_box_impact_bullet3.wav
+  artifactKey: Guid(10a9e353f898a954aa9b5e077f0e28f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_box_impact_bullet3.wav using Guid(10a9e353f898a954aa9b5e077f0e28f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ac2a5a523a55dcff21b7677e004dee') in 0.014423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_box_impact_soft1.wav
+  artifactKey: Guid(3a7a4ae6d38c20f4b91f29e734ac64f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_box_impact_soft1.wav using Guid(3a7a4ae6d38c20f4b91f29e734ac64f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6341eb1cb3f277ed159c9a966210d1a') in 0.013574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.406649 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_box_scrape_rough_loop2.wav
+  artifactKey: Guid(18b515fcdd0f68c45ac897674bda8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_box_scrape_rough_loop2.wav using Guid(18b515fcdd0f68c45ac897674bda8f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3c6d78872ac687ab937be2a267283d') in 0.031601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_canister_impact_hard3.wav
+  artifactKey: Guid(92ea1df5faa8df444974715e3e070818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_canister_impact_hard3.wav using Guid(92ea1df5faa8df444974715e3e070818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59150cdb8f65f65a496fb22732fcbf8') in 0.017378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_chainlink_impact_hard1.wav
+  artifactKey: Guid(24d11d5e380fae24481e876b01227ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_chainlink_impact_hard1.wav using Guid(24d11d5e380fae24481e876b01227ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3979cd6b1039f7b5ee1cc5b94d2f2bb8') in 0.014374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_chainlink_impact_hard3.wav
+  artifactKey: Guid(9f002442adf5dd8448db80a4f40447de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_chainlink_impact_hard3.wav using Guid(9f002442adf5dd8448db80a4f40447de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edb1ab3d20a25073f2e4cd21024acfe') in 0.011702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 51.922475 seconds.
+  path: Assets/Physics
+  artifactKey: Guid(a1a951d81f2aaa44abe80c92fe8449bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Physics using Guid(a1a951d81f2aaa44abe80c92fe8449bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34e748deada7d73e3aabf1dbfb9cb51') in 0.001312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.774327 seconds.
+  path: Assets/Physics/BouncyBall.physicMaterial
+  artifactKey: Guid(5f379e1413422bd46844723f12665791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Physics/BouncyBall.physicMaterial using Guid(5f379e1413422bd46844723f12665791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297198725845046af3e249ffcd413d15') in 0.003231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.923 seconds
+Refreshing native plugins compatible for Editor in 26.31 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.512 seconds
+Domain Reload Profiling: 3430ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (659ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (529ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (85ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 11.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3561.
+Memory consumption went from 118.5 MB to 118.5 MB.
+Total: 4.899400 ms (FindLiveObjects: 0.315500 ms CreateObjectMapping: 0.188400 ms MarkObjects: 4.336400 ms  DeleteObjects: 0.058200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/RandomSFX.cs: bd41656b4725e8e3efb7231569f75432 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ElectricArt.cs: c74bc6a860ebcab81cb0f08c3b78bcbd -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.002 seconds
+Refreshing native plugins compatible for Editor in 20.30 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.529 seconds
+Domain Reload Profiling: 3527ms
+	BeginReloadAssembly (327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (765ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (2529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (517ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (82ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 14.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3564.
+Memory consumption went from 118.8 MB to 118.7 MB.
+Total: 4.227000 ms (FindLiveObjects: 0.436200 ms CreateObjectMapping: 0.269100 ms MarkObjects: 3.463700 ms  DeleteObjects: 0.056700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/RandomSFX.cs: bd41656b4725e8e3efb7231569f75432 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ElectricArt.cs: c74bc6a860ebcab81cb0f08c3b78bcbd -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.969 seconds
+Refreshing native plugins compatible for Editor in 16.05 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.762 seconds
+Domain Reload Profiling: 3727ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (538ms)
+		LoadAssemblies (711ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2763ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (86ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 13.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3567.
+Memory consumption went from 118.8 MB to 118.7 MB.
+Total: 4.551800 ms (FindLiveObjects: 0.468200 ms CreateObjectMapping: 0.408300 ms MarkObjects: 3.588300 ms  DeleteObjects: 0.085800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/RandomSFX.cs: bd41656b4725e8e3efb7231569f75432 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ElectricArt.cs: c74bc6a860ebcab81cb0f08c3b78bcbd -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.869 seconds
+Refreshing native plugins compatible for Editor in 26.41 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.432 seconds
+Domain Reload Profiling: 3294ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (627ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (515ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 18.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3570.
+Memory consumption went from 118.8 MB to 118.7 MB.
+Total: 3.550400 ms (FindLiveObjects: 0.311400 ms CreateObjectMapping: 0.165200 ms MarkObjects: 2.979800 ms  DeleteObjects: 0.092500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/RandomSFX.cs: bd41656b4725e8e3efb7231569f75432 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ElectricArt.cs: c74bc6a860ebcab81cb0f08c3b78bcbd -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 436.944126 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_chainlink_impact_soft2.wav
+  artifactKey: Guid(e7726d8c544afd44b9f31281ae7ee4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_chainlink_impact_soft2.wav using Guid(e7726d8c544afd44b9f31281ae7ee4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c763a0e3f917af2bf7c56f6998f188cd') in 0.077705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004247 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_bullet2.wav
+  artifactKey: Guid(f7e76b0fe9432814e89cc417dcffb3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_bullet2.wav using Guid(f7e76b0fe9432814e89cc417dcffb3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9083f32c7abb06a90ca84b001897db9a') in 0.020254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_grate_impact_hard3.wav
+  artifactKey: Guid(ecde7cc0e135f8240891923f1e0d4d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_grate_impact_hard3.wav using Guid(ecde7cc0e135f8240891923f1e0d4d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7459550cc8bc5ee7e331303a133a0e') in 0.015299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_grate_impact_soft3.wav
+  artifactKey: Guid(2ac94bfe268934b41bdf822668d5a159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_grate_impact_soft3.wav using Guid(2ac94bfe268934b41bdf822668d5a159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852fb30b35e66a633891a7be5e6f960c') in 0.013803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_large_debris1.wav
+  artifactKey: Guid(643860be46b8c9443aeb0d66c67df757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_large_debris1.wav using Guid(643860be46b8c9443aeb0d66c67df757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14ff100f5e4981e5aaf42846f0b745b') in 0.011776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_soft1.wav
+  artifactKey: Guid(cc930399b4783c64bb3e2f8b1689dc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_soft1.wav using Guid(cc930399b4783c64bb3e2f8b1689dc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9df1e44495d4bfbdcbce9da43111fc') in 0.009621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_sheet_impact_hard2.wav
+  artifactKey: Guid(32db0640d94b9d548b0c833b39afc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_sheet_impact_hard2.wav using Guid(32db0640d94b9d548b0c833b39afc6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e599cc8a2f64809811edde5fcd08e75') in 0.011336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_sheet_impact_hard6.wav
+  artifactKey: Guid(fbf0fea0bec7dc74ea360825dff405c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_sheet_impact_hard6.wav using Guid(fbf0fea0bec7dc74ea360825dff405c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce139001522548747616e12569eb8017') in 0.014696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_grenade_scrape_smooth_loop1.wav
+  artifactKey: Guid(09711b80c68781745a30f27c9003a48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_grenade_scrape_smooth_loop1.wav using Guid(09711b80c68781745a30f27c9003a48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf51d27b5de2e708b2fd8cd61135c1a') in 0.015217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_grate_impact_hard2.wav
+  artifactKey: Guid(a0b5c646eb471fa4486693b1d4feb176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_grate_impact_hard2.wav using Guid(a0b5c646eb471fa4486693b1d4feb176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2104ad535c135041e5c7e537a4b9274f') in 0.011721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_hard3.wav
+  artifactKey: Guid(29c9e967362f8aa459400cf6eee87acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_hard3.wav using Guid(29c9e967362f8aa459400cf6eee87acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da006e43c4f0032723ae4d43a45a0786') in 0.011108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_large_debris2.wav
+  artifactKey: Guid(8fb4822fa8c0e0449831d4edc733938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_large_debris2.wav using Guid(8fb4822fa8c0e0449831d4edc733938f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839727f5259aa7652dc8b59f888d29d8') in 0.010982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_sheet_impact_bullet2.wav
+  artifactKey: Guid(c96eeade74a60b9449f38c1845d85fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_sheet_impact_bullet2.wav using Guid(c96eeade74a60b9449f38c1845d85fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdbabfe6ff4c79717211cd99fe112a3') in 0.011053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_grenade_impact_soft1.wav
+  artifactKey: Guid(fd3927b3a9b44f2488aa2b3c7b92e510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_grenade_impact_soft1.wav using Guid(fd3927b3a9b44f2488aa2b3c7b92e510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343420d9f5fc96f28c7c9343cd3b8369') in 0.010419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_bullet3.wav
+  artifactKey: Guid(baedf161deddf93469045846d492eb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_bullet3.wav using Guid(baedf161deddf93469045846d492eb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b6c315f3b59273d9248c40da4c6738') in 0.010001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_hard2.wav
+  artifactKey: Guid(82140982563f291448995a45cf76aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_computer_impact_hard2.wav using Guid(82140982563f291448995a45cf76aa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82379f31da82a05ab8c8fab89aa4dad') in 0.012636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.130857 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_sheet_impact_hard7.wav
+  artifactKey: Guid(85c769e7484fe8649894cf9c5ec16504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_sheet_impact_hard7.wav using Guid(85c769e7484fe8649894cf9c5ec16504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8a4551e620302f6259b2cf42e8c007') in 0.020438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_solid_impact_hard1.wav
+  artifactKey: Guid(46427b270d25b3049b5f74413611c6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_solid_impact_hard1.wav using Guid(46427b270d25b3049b5f74413611c6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9219f367364e61aec1f3a881303731d') in 0.016646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_solid_strain1.wav
+  artifactKey: Guid(5e29fcbedb45d9c43b981461c35ac3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_solid_strain1.wav using Guid(5e29fcbedb45d9c43b981461c35ac3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7885b05884dabe3e9645b977afb4089') in 0.016504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_hard1.wav
+  artifactKey: Guid(658a566466ce831418fa5006870300e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_hard1.wav using Guid(658a566466ce831418fa5006870300e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27218de0f3d027b1505b00b89ce01254') in 0.012739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_solid_strain5.wav
+  artifactKey: Guid(08757d74d667ffb40b1472ce67d3096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_solid_strain5.wav using Guid(08757d74d667ffb40b1472ce67d3096d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceadc741af4b2090b0f72f56016eb2f') in 0.013193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_bullet3.wav
+  artifactKey: Guid(8ad1d6169867c47478ed12d87281ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_bullet3.wav using Guid(8ad1d6169867c47478ed12d87281ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c013e6caed63e03dfd5bb7741bd3bff9') in 0.013932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_soft1.wav
+  artifactKey: Guid(92b93efdda6d3bc45bc0c899ca106131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_soft1.wav using Guid(92b93efdda6d3bc45bc0c899ca106131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc5aa992d072c8ea42c07be76c7b35f') in 0.011042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_soft2.wav
+  artifactKey: Guid(12fe4d60cc9d9d344a357f7a4e9c4c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_soft2.wav using Guid(12fe4d60cc9d9d344a357f7a4e9c4c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9e95be9f08921f6d0abd09a90e1521') in 0.014172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_break1.wav
+  artifactKey: Guid(c337c9797491b5c408e438d3f33aaf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_break1.wav using Guid(c337c9797491b5c408e438d3f33aaf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3614ec9d97ac7d6792b4b44e7fed093a') in 0.014590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_solid_strain2.wav
+  artifactKey: Guid(bfd786ec5122eb24b9a91ba4d0c24d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_solid_strain2.wav using Guid(bfd786ec5122eb24b9a91ba4d0c24d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199dc8e3d685f1286c94321faee2aac3') in 0.015224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_soft3.wav
+  artifactKey: Guid(cf6ec759da4a97e4ca6fe814c1998b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_soft3.wav using Guid(cf6ec759da4a97e4ca6fe814c1998b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732b7d6d42fd96bd4a675eed34234d9c') in 0.012670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_bullet2.wav
+  artifactKey: Guid(b5edf7da9c9801747a9b3b7f6d7cd9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_bullet2.wav using Guid(b5edf7da9c9801747a9b3b7f6d7cd9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112407771e3ec29af9020b8a4607e1fd') in 0.014582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_hard1.wav
+  artifactKey: Guid(f6ed88f37f5c3604a886cf1b9950c80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_hard1.wav using Guid(f6ed88f37f5c3604a886cf1b9950c80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d257a87c3ef0d5d0c1eaabadae1e1bc') in 0.012952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_hard2.wav
+  artifactKey: Guid(8c9e7e5b663060142b2d7bc27948602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/paintcan_impact_hard2.wav using Guid(8c9e7e5b663060142b2d7bc27948602e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfcb034cdfa6e180998c6b5e3cd872b') in 0.021556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_break2.wav
+  artifactKey: Guid(3b650c9c22d55024d9521e44aa552e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_break2.wav using Guid(3b650c9c22d55024d9521e44aa552e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e55d4c711c08dec77735087672cdd19') in 0.013119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/metal_solid_impact_soft1.wav
+  artifactKey: Guid(60a68cc60b917854ea8888c74a8d5a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/metal_solid_impact_soft1.wav using Guid(60a68cc60b917854ea8888c74a8d5a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f05854d91bc2f8ab27411bad47fab1a') in 0.015555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.468406 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_hard4.wav
+  artifactKey: Guid(6946e53748c9d4b44960cd292f294c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_hard4.wav using Guid(6946e53748c9d4b44960cd292f294c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375ff508688a398d70de459ecc31424a') in 0.019429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_bullet3.wav
+  artifactKey: Guid(013163a8cdbf8b448991a2bd9ba857bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_bullet3.wav using Guid(013163a8cdbf8b448991a2bd9ba857bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd7ea5ad745410c3f00fad1234b7e32') in 0.015616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_bullet5.wav
+  artifactKey: Guid(b7be79cdf4268b34c837082133a174c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_bullet5.wav using Guid(b7be79cdf4268b34c837082133a174c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ec800b56071c6fad756bf62b488296') in 0.019815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_bullet2.wav
+  artifactKey: Guid(d4c7e4b3f7ec75d4196f8cd0e957a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_bullet2.wav using Guid(d4c7e4b3f7ec75d4196f8cd0e957a0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23c7af45b1925235ec7ed2f83b431fa') in 0.012674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_soft4.wav
+  artifactKey: Guid(6220be9679a14a0489f539d02451c5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_soft4.wav using Guid(6220be9679a14a0489f539d02451c5d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040df85d6a97ff697f179b2510e98038') in 0.010673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/rock_impact_hard1.wav
+  artifactKey: Guid(29e8765d13a12374687a72561d260d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/rock_impact_hard1.wav using Guid(29e8765d13a12374687a72561d260d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26dd3b14a06ae5102edbe757a89d432') in 0.011642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_break1.wav
+  artifactKey: Guid(c25c17469cc0aea448a833052406f14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_break1.wav using Guid(c25c17469cc0aea448a833052406f14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062885940a90545937390ecc28e2e733') in 0.010932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_bullet1.wav
+  artifactKey: Guid(8da968447bc8ec0479a9dce18b5f5f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_bullet1.wav using Guid(8da968447bc8ec0479a9dce18b5f5f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e21d8e1f3f5644d74facc1add48efc') in 0.013368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_soft4.wav
+  artifactKey: Guid(05ec6fec6b0e8984b8503c0c04cacf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_soft4.wav using Guid(05ec6fec6b0e8984b8503c0c04cacf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a8a306b4cca1d290e4c58e96e0ccc0') in 0.010335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_break2.wav
+  artifactKey: Guid(2d969f30e2bc9b246895c702224f5bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_break2.wav using Guid(2d969f30e2bc9b246895c702224f5bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed1a6511d534d7633f9ec7455dc5eae') in 0.009178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/rock_impact_hard4.wav
+  artifactKey: Guid(cb84bdc1ec44181449b7b0f7650300e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/rock_impact_hard4.wav using Guid(cb84bdc1ec44181449b7b0f7650300e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6a129ee02c3cd3c97d07e6f45975a3') in 0.009660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_hard1.wav
+  artifactKey: Guid(8b1c43fdfef791a49ae7ee0b6132f9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_hard1.wav using Guid(8b1c43fdfef791a49ae7ee0b6132f9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85af5576a9bed8c44e18fb88e6e089e4') in 0.011248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/rock_impact_hard2.wav
+  artifactKey: Guid(a9d17d236260c3b46872423ee75e1706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/rock_impact_hard2.wav using Guid(a9d17d236260c3b46872423ee75e1706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fcc6494a968e0eb421cba38a027604') in 0.010075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_soft3.wav
+  artifactKey: Guid(c96ef87361798e34e882a75a3d82d460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_barrel_impact_soft3.wav using Guid(c96ef87361798e34e882a75a3d82d460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684a99da5d8192b000864b6c45120602') in 0.010756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_scrape_rough_loop1.wav
+  artifactKey: Guid(899777bf968f85d43a2022f1140ac49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_scrape_rough_loop1.wav using Guid(899777bf968f85d43a2022f1140ac49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2c4bd2317ca433dcdb10ababf75be2') in 0.014856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_soft2.wav
+  artifactKey: Guid(17f6262fb980ddd44b08e3bfa6f73169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/plastic_box_impact_soft2.wav using Guid(17f6262fb980ddd44b08e3bfa6f73169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0127ac29204d5ddbd52f22966ad228') in 0.010425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.399997 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/rock_impact_soft1.wav
+  artifactKey: Guid(0ed003d8358997a40a84f875a04578f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/rock_impact_soft1.wav using Guid(0ed003d8358997a40a84f875a04578f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5112b5a94584913657ca9796aa46f17') in 0.018835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/rubber_tire_impact_bullet3.wav
+  artifactKey: Guid(424bf8465cbc3ac4c9144c1fd684511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/rubber_tire_impact_bullet3.wav using Guid(424bf8465cbc3ac4c9144c1fd684511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179c4a88e0e0e1e70e864664bd2b59af') in 0.016429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/rubber_tire_impact_soft3.wav
+  artifactKey: Guid(9e6a6c00dc0749f4e82166878d58bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/rubber_tire_impact_soft3.wav using Guid(9e6a6c00dc0749f4e82166878d58bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f396a2bd7dfc05107678d92ac016147') in 0.012520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/soda_can_impact_soft1.wav
+  artifactKey: Guid(14480123a840b4f489572cd9bd9af26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/soda_can_impact_soft1.wav using Guid(14480123a840b4f489572cd9bd9af26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9190c5953927123fa15fd70ee8b18d') in 0.010221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/tile_impact_bullet4.wav
+  artifactKey: Guid(0eb8ef74d5ca9544fa814693d54b9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/tile_impact_bullet4.wav using Guid(0eb8ef74d5ca9544fa814693d54b9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67a0812be221b835a36237e1ffd285a') in 0.009263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/sawblade_stick3.wav
+  artifactKey: Guid(6d4ad22a83658fa44a26757f29b6d2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/sawblade_stick3.wav using Guid(6d4ad22a83658fa44a26757f29b6d2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660a3247b764f63b3a47fbce0527d97e') in 0.012856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/soda_can_scrape_rough_loop1.wav
+  artifactKey: Guid(85aab850e841fe948bf7997efa12f6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/soda_can_scrape_rough_loop1.wav using Guid(85aab850e841fe948bf7997efa12f6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac580c422d9fbe6c7ab45ce51d4be9a') in 0.013418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/underwater_impact_bullet3.wav
+  artifactKey: Guid(ad5a68016ed1dd74d8484f2b0f6b7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/underwater_impact_bullet3.wav using Guid(ad5a68016ed1dd74d8484f2b0f6b7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bb6fcf4a1b63ac80eb166f93c3c2c7') in 0.017261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/weapon_impact_hard3.wav
+  artifactKey: Guid(6cabeb3451cfe3b4c84be95229b9e2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/weapon_impact_hard3.wav using Guid(6cabeb3451cfe3b4c84be95229b9e2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d787e3b6e37c1447ef914ba54149fe') in 0.019315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/whoosh_huge1.wav
+  artifactKey: Guid(a54042c3975f2244fb229d87dafbaacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/whoosh_huge1.wav using Guid(a54042c3975f2244fb229d87dafbaacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff5bf2e4c18941256a9eada005b89f0') in 0.012223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/rubber_tire_impact_bullet2.wav
+  artifactKey: Guid(cc83e5fe2e4e0e348a4193dcdde4175b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/rubber_tire_impact_bullet2.wav using Guid(cc83e5fe2e4e0e348a4193dcdde4175b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5af59b6e6f510a2822096533d3d696a') in 0.010313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/rubber_tire_impact_soft2.wav
+  artifactKey: Guid(8c1064877bb1dc54a910ee6d010b8712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/rubber_tire_impact_soft2.wav using Guid(8c1064877bb1dc54a910ee6d010b8712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d23125a18be117f671e92940eb2e70d') in 0.011489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/weapon_footstep1.wav
+  artifactKey: Guid(063a9afaf5399fe469c8e83a24787d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/weapon_footstep1.wav using Guid(063a9afaf5399fe469c8e83a24787d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa12e3c62a82855b8b1f4066e3d9804') in 0.015468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/rock_scrape_rough_loop1.wav
+  artifactKey: Guid(cd7197500c7905848ba02a9a9ef1cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/rock_scrape_rough_loop1.wav using Guid(cd7197500c7905848ba02a9a9ef1cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086033f0db8d5a92f902827a27d433bd') in 0.013343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/soda_can_impact_hard1.wav
+  artifactKey: Guid(ede09c762dd22b3458e700d61343aa0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/soda_can_impact_hard1.wav using Guid(ede09c762dd22b3458e700d61343aa0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e70633c1f4832a5e9b547f50c6a17d') in 0.011378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/soda_can_impact_soft3.wav
+  artifactKey: Guid(427d51cfe02232642b1963d3112c528b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/soda_can_impact_soft3.wav using Guid(427d51cfe02232642b1963d3112c528b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9386ff5572d542f84ca94d1bf269901') in 0.010499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.564446 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_box_footstep1.wav
+  artifactKey: Guid(2f8d8edeb362c6243b80032ae038fac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_box_footstep1.wav using Guid(2f8d8edeb362c6243b80032ae038fac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa9633fe4075e391d5bbcd3eba6d184') in 0.027079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_box_impact_hard1.wav
+  artifactKey: Guid(3864dd78f40188f428dbdabf80ba51d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_box_impact_hard1.wav using Guid(3864dd78f40188f428dbdabf80ba51d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa80d4c271053c6bf21bde2f350b7962') in 0.024583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_box_impact_bullet1.wav
+  artifactKey: Guid(adfb82a3837926b4d94d5a01241cf754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_box_impact_bullet1.wav using Guid(adfb82a3837926b4d94d5a01241cf754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19d1e6debb45f9573ff334f39fdac45') in 0.023606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_box_impact_soft1.wav
+  artifactKey: Guid(a52b875ff1504e741a5bf5fba0559b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_box_impact_soft1.wav using Guid(a52b875ff1504e741a5bf5fba0559b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b228161ab1ebce9bac7e7d07d1af1d32') in 0.019224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.233469 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_box_scrape_rough_loop1.wav
+  artifactKey: Guid(9cc37955d7527a543bc444146b715e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_box_scrape_rough_loop1.wav using Guid(9cc37955d7527a543bc444146b715e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa9ce454659ca61c4c00b2cb3b04f02') in 0.025654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_crate_break2.wav
+  artifactKey: Guid(cd643ecce777af94bad65bd613bb8dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_crate_break2.wav using Guid(cd643ecce777af94bad65bd613bb8dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb5602f2bee7f088578919bc313dfde') in 0.019858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_crate_impact_soft3.wav
+  artifactKey: Guid(a3129732645da7543948212359aaa429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_crate_impact_soft3.wav using Guid(a3129732645da7543948212359aaa429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62798135173a4854d94527717a95c11') in 0.017120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_crate_impact_hard2.wav
+  artifactKey: Guid(89561a1080ff4d44d8ebd356588a02f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_crate_impact_hard2.wav using Guid(89561a1080ff4d44d8ebd356588a02f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11337c77f1ab327987ca156adf78f9de') in 0.011279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.282564 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_furniture_break1.wav
+  artifactKey: Guid(3f8419f2966e9d540aaf38d2c5ffa3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_furniture_break1.wav using Guid(3f8419f2966e9d540aaf38d2c5ffa3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4166892cc9591f740f7015b050932655') in 0.014517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_plank_impact_hard1.wav
+  artifactKey: Guid(91347c15f3792ca4d8e574aa04c59c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_plank_impact_hard1.wav using Guid(91347c15f3792ca4d8e574aa04c59c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c9f5a4b151b48ca697646f55758504') in 0.018333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_plank_break2.wav
+  artifactKey: Guid(a7efd03c9c75c814fb1e9165ceef93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_plank_break2.wav using Guid(a7efd03c9c75c814fb1e9165ceef93ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511741341cb27daedde4077b5e4d9499') in 0.021650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_panel_impact_hard1.wav
+  artifactKey: Guid(0c8704d9ae86d734586b89b57caf6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_panel_impact_hard1.wav using Guid(0c8704d9ae86d734586b89b57caf6ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10d7b45a48fcd3d7cfe2d90beeb23ec') in 0.018249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.641135 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_plank_impact_soft1.wav
+  artifactKey: Guid(2ef0dc58dc055834db7f14e80737bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_plank_impact_soft1.wav using Guid(2ef0dc58dc055834db7f14e80737bbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576c004f6625ec73c1fb2f71b939d389') in 0.011305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_solid_impact_bullet5.wav
+  artifactKey: Guid(7200dfadf9756154eb71949363118e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_solid_impact_bullet5.wav using Guid(7200dfadf9756154eb71949363118e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5775bb2be1b984f89afc313bac42b21') in 0.014434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_solid_impact_hard3.wav
+  artifactKey: Guid(8c5861f2936e9c440b85be87231fac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_solid_impact_hard3.wav using Guid(8c5861f2936e9c440b85be87231fac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c92606739efff899a80060218beb18') in 0.010958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_strain4.wav
+  artifactKey: Guid(39e2e05904e3ea3499bc290c038fd52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_strain4.wav using Guid(39e2e05904e3ea3499bc290c038fd52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658c14746dc93c5134b6e49a97551613') in 0.013695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/SFX/Physics/Placeholder/wood_solid_impact_soft3.wav
+  artifactKey: Guid(ba3137bd17d27014cac27045f6b2dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/SFX/Physics/Placeholder/wood_solid_impact_soft3.wav using Guid(ba3137bd17d27014cac27045f6b2dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b527a04c9b5a8367b74a56b7c41a5353') in 0.013729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
