@@ -1,0 +1,345 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32702 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityVers\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/Unity/Projects/SoloCollegeGame/SoloGameProject
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60381
+Successfully changed project path to: E:/Unity/Projects/SoloCollegeGame/SoloGameProject
+E:/Unity/Projects/SoloCollegeGame/SoloGameProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34292] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 1917122052 [EditorId] 1917122052 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TV6FPU4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [34292] Host "[IP] 192.168.0.115 [Port] 0 [Flags] 2 [Guid] 1917122052 [EditorId] 1917122052 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TV6FPU4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 9.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path E:/UnityVers/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Projects/SoloCollegeGame/SoloGameProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     6092 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/UnityVers/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityVers/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityVers/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityVers/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005877 seconds.
+- Loaded All Assemblies, in  0.451 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.328 seconds
+Domain Reload Profiling: 777ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (130ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (242ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.796 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1427ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (447ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3867 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (98.0 KB). Loaded Objects now: 4334.
+Memory consumption went from 198.4 MB to 198.3 MB.
+Total: 4.687000 ms (FindLiveObjects: 0.376300 ms CreateObjectMapping: 0.400500 ms MarkObjects: 3.648500 ms  DeleteObjects: 0.260400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 168894.812565 seconds.
+  path: Assets/Resources/Textures/VoronoiElectric2.png
+  artifactKey: Guid(2ff5eabbce7aaff4187a4ad3d3396bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures/VoronoiElectric2.png using Guid(2ff5eabbce7aaff4187a4ad3d3396bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5703c6c6cd60c63b0266be0896b0f7b') in 0.099567 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 374.352422 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(47ed4b707abd49d41bd3462545e1de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(47ed4b707abd49d41bd3462545e1de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38670da8100a7fa9adcc535aa2a68362') in 0.000845 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.787202 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd08cb6f357f4eb9ecfb4717a1184e19') in 0.000813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.510568 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d7611e3e8bbaf1d26d790f52ec4851') in 0.000779 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.419413 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39b66f24d37fa217e3016e6dd0ccc36') in 0.001166 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.930379 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47c5b95609f3e711e4c0537fcbac963') in 0.000674 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.819528 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a997c44786cbda46d13a630f9479a824') in 0.001101 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.336707 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027e43a4455d0b9d5a92abefaa7ba810') in 0.003730 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.357451 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09df58d0a298cff98d50ba2f46577498') in 0.000670 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.358299 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bf2c22c0b013687d0d902e6b2cfcc2') in 0.002041 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.697869 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8f9a29a8c37d6af5878818c0d72a23') in 0.000716 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.285740 seconds.
+  path: Assets/Shaders/MeshEffectFresnel.shader
+  artifactKey: Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/MeshEffectFresnel.shader using Guid(aabfa07c6920af342880c2b5a0658c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307bc510e40468667fde3ae8264a5ef6') in 0.001956 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 103.948806 seconds.
+  path: Assets/ShaderForge/Example Assets/Shaders/CustomLighting.mat
+  artifactKey: Guid(cadfde2f3ef294043affa7194ae69b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderForge/Example Assets/Shaders/CustomLighting.mat using Guid(cadfde2f3ef294043affa7194ae69b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca577c7b0520bee391df0eb92b22698a') in 0.392458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ShaderForge/Example Assets/Shaders/Refraction.mat
+  artifactKey: Guid(2eced452d5ec44e49985d30395b1e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderForge/Example Assets/Shaders/Refraction.mat using Guid(2eced452d5ec44e49985d30395b1e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d05c5b44c8430729a9c4b81954cc5ad') in 0.358934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ShaderForge/Editor/InternalResources/Interface/Fonts/VeraMono-Bold.ttf
+  artifactKey: Guid(5fb784c533f3648a39d9c367d24ba12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderForge/Editor/InternalResources/Interface/Fonts/VeraMono-Bold.ttf using Guid(5fb784c533f3648a39d9c367d24ba12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc89c8c43ff8d36ba664a6eb96ce252b') in 0.036764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.014882 seconds.
+  path: Assets/ShaderForge/Example Assets/Shaders/VertexColorRounding.mat
+  artifactKey: Guid(5d9b849895144ea4983f3b1f36bbacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderForge/Example Assets/Shaders/VertexColorRounding.mat using Guid(5d9b849895144ea4983f3b1f36bbacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28dc2f49e518a7235f03bb36e50b577') in 0.094986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ShaderForge/Example Assets/Shaders/PixelRotator.mat
+  artifactKey: Guid(ad0f5de566d7147fe91238a7111958f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderForge/Example Assets/Shaders/PixelRotator.mat using Guid(ad0f5de566d7147fe91238a7111958f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e377c97cb38b010f7ba73e91efdcc68') in 0.234409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ShaderForge/Example Assets/Shaders/VertexAnimation_blue.mat
+  artifactKey: Guid(4a36ae71b48f14d6fb2eae31da682a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderForge/Example Assets/Shaders/VertexAnimation_blue.mat using Guid(4a36ae71b48f14d6fb2eae31da682a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00da5e5769ba4e8314cddea4f9218460') in 0.235357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/ShaderForge/Example Assets/Shaders/LightWrapping.mat
+  artifactKey: Guid(0baa0be77ffe0ec4bbba3c06cb8f887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderForge/Example Assets/Shaders/LightWrapping.mat using Guid(0baa0be77ffe0ec4bbba3c06cb8f887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bfc8f6cea9594bec01a4d405304c41') in 0.328737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ShaderForge/Example Assets/Shaders/TessellationDisplacement.mat
+  artifactKey: Guid(d753811ecd38cd149b3a958022853c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderForge/Example Assets/Shaders/TessellationDisplacement.mat using Guid(d753811ecd38cd149b3a958022853c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a2a42b9df5d7b75b6a2c1847abb156') in 0.467633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
